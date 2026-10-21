@@ -135,7 +135,7 @@ cd face-recognition-pipeline-refactored
 pip install -r requirements.txt
 ```
 
-3. **Prepare your dataset:** Place your image folders inside a `Dataset/` directory and update the paths in `1_prepare_data.py` if needed.
+3. **Prepare your dataset:** Download the 'Dataset' and 'Group Photo' folders from [face-recognition-pipeline](https://github.com/MufradMahmud19/face-recognition-pipeline) and place them, and update the paths in `1_prepare_data.py` if needed.
 
 ---
 

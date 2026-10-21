@@ -10,7 +10,7 @@ An end-to-end face recognition pipeline that detects faces from raw images, extr
 
 ## What Changed From the Original
 
-The original pipeline fed **16,384 raw pixel values** (64×64 RGB + Haar Wavelet) directly into classifiers. Raw pixels shift with every change in lighting, pose, or expression — making it impossible for classical ML models to generalize well.
+The original pipeline fed **16,384 raw pixel values** (64×64 RGB + Haar Wavelet) directly into classifiers. Raw pixels shift with every change in lighting, pose, or expression, making it impossible for classical ML models to generalize well.
 
 This refactored version fixes that with:
 

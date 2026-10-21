@@ -94,8 +94,8 @@ This refactored version fixes that with:
 ├── 2g_train_ensemble.py       # Soft Voting Ensemble
 ├── 3_predict_group.py         # Group photo face recognition
 ├── requirements.txt           # Python dependencies
-├── main.py                    # Legacy monolithic script
-└── proj.ipynb                 # Legacy notebook
+├── 📁 Group image
+└── 📁 Dataset
 ```
 
 ---

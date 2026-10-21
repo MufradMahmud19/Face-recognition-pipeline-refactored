@@ -44,12 +44,12 @@ This refactored version fixes that with:
 | # | Model | Accuracy |
 |---|---|---|
 | 1 | SVM (Linear) | 90% |
-| 2 | **SVM (RBF)** | **94%** ⭐ |
+| 2 | **SVM (RBF)** | **94%** |
 | 3 | SVC (Sigmoid) | 72% |
 | 4 | Random Forest | 89% |
 | 5 | Naive Bayes | 39% |
 | 6 | MLP Neural Network (ReLU) | 93% |
-| 7 | **Ensemble (Soft Voting)** | **94%** ⭐ |
+| 7 | **Ensemble (Soft Voting)** | **94%** |
 
 > After testing with 10 random group photos of celebrities from the dataset, the most accurate real-world predictions were from **Random Forest** and **Ensemble**.
 

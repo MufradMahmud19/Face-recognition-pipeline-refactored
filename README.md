@@ -1,10 +1,10 @@
-# Facial Recognition & Classification Pipeline — Refactored
+# Facial Recognition & Classification Pipeline - Refactored
 
-An end-to-end face recognition pipeline that detects faces from raw images, extracts deep features using a pretrained **InceptionResNetV2** CNN, and classifies identities using classical machine learning models. Originally built as a university project (CSE422 — Artificial Intelligence), this is the **refactored version** with significantly improved accuracy.
+An end-to-end face recognition pipeline that detects faces from raw images, extracts deep features using a pretrained **InceptionResNetV2** CNN, and classifies identities using classical machine learning models. Originally built as a university project (CSE422 - Artificial Intelligence), this is the **refactored version** with significantly improved performance.
 
-> **Previous version:** [face-recognition-pipeline](https://github.com/MufradMahmud19/face-recognition-pipeline) — used raw pixel + wavelet features, topped out at ~62% test accuracy.
+> **Previous version:** [face-recognition-pipeline](https://github.com/MufradMahmud19/face-recognition-pipeline) where raw pixel + wavelet features were used.
 >
-> **This version:** Uses deep CNN embeddings + data augmentation → **94% test accuracy**.
+> **This version:** Uses deep CNN embeddings + data augmentation.
 
 ---
 
@@ -198,14 +198,3 @@ Predicted Identity
 ```
 
 ---
-
-## Legacy Files
-
-- `main.py` — Original monolithic script (kept for reference)
-- `proj.ipynb` — Original Jupyter notebook (kept for reference)
-
----
-
-## License
-
-This project is open-source and available for educational purposes.
